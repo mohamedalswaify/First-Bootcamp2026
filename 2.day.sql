@@ -119,15 +119,6 @@ order by   hire_date
  and Sorting Data depanden on Salary Who is Have Max Value.
 
 
- select * 
- from  employees
-
-
-  select  first_name , last_name , salary 
- from  employees 
-
- where  salary   between 4000    and  9000
- order by salary desc
 
 
 
