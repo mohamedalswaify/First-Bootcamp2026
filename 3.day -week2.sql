@@ -1,4 +1,4 @@
- ***********************Session 1**********************************
+ ***********************Session 3**********************************
 -- 📘 SQL Server: Full DQL Course - Beginner to Advanced
 -- 👨‍🏫 Name: Mohamed Alswaify
 -- 📱 Mobile: 0564842804
@@ -35,6 +35,10 @@
 
 
 -- 🧠 This course demonstrates how to use SELECT in practical contexts, from basic retrieval to advanced logic and multi-table operations.
+------------------------------------------------------------
+
+------------------------------------------------------------
+-- 🔰 BEGINNER LEVEL: Basic SELECT, WHERE, and ORDER BY
 ------------------------------------------------------------
 
 
@@ -233,23 +237,6 @@ from departments
 select  department_name ,street_address,city,state_province ,country_id 
 from departments d join  locations l
 on d.location_id = l.location_id
-
-
-
-
-
-
-
-
-
-
-
-
-------------------------------------------------------------
--- 🔰 BEGINNER LEVEL: Basic SELECT, WHERE, and ORDER BY
-------------------------------------------------------------
-
-
 
 
 
