@@ -252,7 +252,7 @@ order by   e.department_id
 
 Write a query to display the department_id, department name , maximum salary, minimum salary, total salary, 
 average salary (rounded), and number of employees for each department from the employees table. 
-Include only departments with department_id greater than 30 and having at least 5 employees. 
+Include only departments with department_id greater than 30 and  at least 5 employees. 
 Sort the result by department_id.
 
 

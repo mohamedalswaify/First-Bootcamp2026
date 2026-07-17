@@ -102,8 +102,9 @@ select  last_name ,salary , job_id , hire_date , department_id
 from employees
 where job_id  not  like'IT%'
 
-* Display the employee name, job, and department for all employees
- who work at department 30 or  department 50 or departments 70
+select  last_name ,salary , job_id , hire_date , department_id
+from employees
+where last_name like'R%'
 
  select  * 
  from employees
