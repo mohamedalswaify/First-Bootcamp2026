@@ -39,7 +39,7 @@ namespace FirstConsoleBootCamp
             // Enter Patient Height: 187
 
 
-            // BMI = weight / (height / height)  ** 2
+            // BMI = weight / (height/100) ** 2
 
 
             // print Patient Name:
