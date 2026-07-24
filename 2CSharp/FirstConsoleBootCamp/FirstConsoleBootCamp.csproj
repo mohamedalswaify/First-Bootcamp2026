@@ -43,15 +43,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calc.cs" />
-    <Compile Include="Compute_PCT.cs" />
-    <Compile Include="Compute_salary.cs" />
-    <Compile Include="Data_Type.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="day1\Calc.cs" />
+    <Compile Include="day2\Calc.cs" />
+    <Compile Include="day2\Compute_BMI.cs" />
+    <Compile Include="day1\Compute_PCT.cs" />
+    <Compile Include="day1\Compute_salary.cs" />
+    <Compile Include="day1\Data_Type.cs" />
+    <Compile Include="day1\Program.cs" />
+    <Compile Include="day2\Compute_PCT_v2.cs" />
+    <Compile Include="day2\Compute_salary_V2.cs" />
+    <Compile Include="day2\Login.cs" />
+    <Compile Include="day2\Loops.cs" />
+    <Compile Include="day2\Qiuz.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

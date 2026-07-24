@@ -1,0 +1,7 @@
+C:\Users\LENOVO\Desktop\First Bootcamp\2CSharp\FirstConsoleBootCamp\obj\Debug\FirstConsoleBootCamp.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\First Bootcamp\2CSharp\FirstConsoleBootCamp\obj\Debug\FirstConsoleBootCamp.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\First Bootcamp\2CSharp\FirstConsoleBootCamp\bin\Debug\FirstConsoleBootCamp.exe.config
+C:\Users\LENOVO\Desktop\First Bootcamp\2CSharp\FirstConsoleBootCamp\bin\Debug\FirstConsoleBootCamp.exe
+C:\Users\LENOVO\Desktop\First Bootcamp\2CSharp\FirstConsoleBootCamp\bin\Debug\FirstConsoleBootCamp.pdb
+C:\Users\LENOVO\Desktop\First Bootcamp\2CSharp\FirstConsoleBootCamp\obj\Debug\FirstConsoleBootCamp.exe
+C:\Users\LENOVO\Desktop\First Bootcamp\2CSharp\FirstConsoleBootCamp\obj\Debug\FirstConsoleBootCamp.pdb

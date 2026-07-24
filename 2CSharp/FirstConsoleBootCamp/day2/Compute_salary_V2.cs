@@ -4,22 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FirstConsoleBootCamp
+namespace FirstConsoleBootCamp.day2
 {
-    internal class Compute_salary
+    internal class Compute_salary_V2
     {
-
-        static void Main(string[] args)
+        static void Mainn(string[] args)
         {
 
             Console.Write("Enter Employee Name: ");
             string name = Console.ReadLine();
 
             Console.Write("Enter Employee Salary: ");
-            double salary =  double.Parse(Console.ReadLine())  ;
+            double salary = double.Parse(Console.ReadLine());
 
             Console.Write("Enter Employee Bonus: ");
-            double bonus =double.Parse(Console.ReadLine());
+            double bonus = double.Parse(Console.ReadLine());
 
             double totalSalary = salary + bonus;
             double annualSalary = totalSalary * 12;
@@ -32,20 +31,25 @@ namespace FirstConsoleBootCamp
             Console.WriteLine("Annual Salary: " + annualSalary);
 
 
-            //Compute_BMI 
 
-            // Enter Patient Name:
-            // Enter Patient Weight: 87
-            // Enter Patient Height: 187
+            if (annualSalary >= 12000)
+            {
+                Console.WriteLine("High Salary");
+            }
+            else if(annualSalary >= 6000)
+            {
+                Console.WriteLine("Normal Salary");
+            }
+            else if (annualSalary >= 3000)
+            {
+                Console.WriteLine("Low Salary");
+            }
 
+            else
+            {
 
-            // BMI = weight /       (height/100)2
-
-
-            // print Patient Name:
-            //print Patient Weight:
-            // print Patient Height:
-            // print Patient BMI: 18 - 30
+                Console.WriteLine("Very Low Salary");
+            }
 
 
 
