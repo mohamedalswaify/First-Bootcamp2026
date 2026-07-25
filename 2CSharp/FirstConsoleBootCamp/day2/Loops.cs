@@ -8,7 +8,7 @@ namespace FirstConsoleBootCamp.day2
 {
     internal class Loops
     {
-        static void Main()
+        static void Mainn()
         {
 
             for (int x = 1; x <= 10; x += 1)
@@ -20,32 +20,33 @@ namespace FirstConsoleBootCamp.day2
             //for (int x = 100; x >= 10; x -= 10)
             //{
             //    Console.WriteLine(x);
-                
+
+        
+        //100    90  80   10
+
+        //int x = 1;
+        //while (x <= 10)
+        //{
+        //    Console.WriteLine(x);
+        //    // Console.WriteLine("Mohamed Alswaify");
+        //    x += 1;
+        //}
+
+        //int x = 1;
+        //do
+        //{
+        //    Console.WriteLine(x);
+        //    // Console.WriteLine("Mohamed Alswaify");
+
+        //    x += 1;
+        //} while (x <= 10);
+
+
+
+
+
+        Console.ReadKey();
             }
-            //100    90  80   10
-
-            //int x = 1;
-            //while (x <= 10)
-            //{
-            //    Console.WriteLine(x);
-            //    // Console.WriteLine("Mohamed Alswaify");
-            //    x += 1;
-            //}
-
-            //int x = 1;
-            //do
-            //{
-            //    Console.WriteLine(x);
-            //    // Console.WriteLine("Mohamed Alswaify");
-
-            //    x += 1;
-            //} while (x <= 10);
-
-
-
-
-
-            Console.ReadKey();
         }
     }
-}
+

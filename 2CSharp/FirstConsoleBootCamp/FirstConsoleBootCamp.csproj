@@ -55,6 +55,14 @@
     <Compile Include="day2\Login.cs" />
     <Compile Include="day2\Loops.cs" />
     <Compile Include="day2\Qiuz.cs" />
+    <Compile Include="day3\Check_day.cs" />
+    <Compile Include="day3\Check_day_V2.cs" />
+    <Compile Include="day3\Compute_PCT_V3.cs" />
+    <Compile Include="day3\Compute_Salary_V3.cs" />
+    <Compile Include="day3\List.cs" />
+    <Compile Include="day3\Quiz_V2.cs" />
+    <Compile Include="level2\Calling.cs" />
+    <Compile Include="level2\Methods.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
