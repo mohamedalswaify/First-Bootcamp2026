@@ -49,9 +49,27 @@ namespace FirstConsoleBootCamp.week3.day1.Return_Functions
 
         }
 
+        public void Compute_Pct2(string name, double mark, double fullMark)
+        {
 
 
 
+            double percentage = (mark / fullMark) * 100;
+            Console.Write($" Student Name:  {name} \nyour  mark is: {mark} \nYour Percentage is:{percentage} %");
+        }
+
+        public void Compute_BMI2(string name, double weight, double height)
+        {
+
+            double BMI = weight / Math.Pow((height / 100), 2);
+
+
+            Console.WriteLine($"Patient Name: {name} ");
+            Console.WriteLine($"Patient Weight:{weight} ");
+            Console.WriteLine($"Patient Height: {height}");
+            Console.WriteLine($"Patient BMI: {BMI} ");
+
+        }
 
 
     }
