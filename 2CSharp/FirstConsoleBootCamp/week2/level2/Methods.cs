@@ -13,7 +13,6 @@ namespace FirstConsoleBootCamp.level2
             Console.WriteLine("Welcome To CSharp!");
 
         }
-
      public void Compute_Sal()
         {
 
@@ -40,8 +39,6 @@ namespace FirstConsoleBootCamp.level2
 
 
         }
-
-
     public  void Compute_Pct()
         {
             Console.Write("Enter Student Name: ");
@@ -86,7 +83,6 @@ namespace FirstConsoleBootCamp.level2
                 Console.WriteLine("Fail");
             }
         }
-
      public  void Compute_BMI()
         {
             Console.Write("Enter Patient Name: ");
@@ -135,9 +131,7 @@ namespace FirstConsoleBootCamp.level2
                 Console.WriteLine("underweight");
             }
         }
-
-
-        public void saHi()
+     public void saHi()
         {
 
         }

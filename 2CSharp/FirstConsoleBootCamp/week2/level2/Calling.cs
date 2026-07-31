@@ -8,11 +8,11 @@ namespace FirstConsoleBootCamp.level2
 {
     internal class Calling
     {
-        static void Main()
+        static void Mainn()
         {
-          
 
-             Methods methods = new Methods();
+
+            Methods methods = new Methods();
 
             Console.WriteLine("Select Option:");
             Console.WriteLine("1.System Hello");
@@ -20,12 +20,13 @@ namespace FirstConsoleBootCamp.level2
             Console.WriteLine("3.System Students");
             Console.WriteLine("4.System Patients");
             int answer = int.Parse(Console.ReadLine());
-            
+
             if (answer == 1)
             {
                 methods.Hello();
             }
-            else if (answer == 2) {
+            else if (answer == 2)
+            {
                 methods.Compute_Sal();
             }
             else if (answer == 3)
@@ -45,7 +46,7 @@ namespace FirstConsoleBootCamp.level2
             Console.ReadKey();
         }
 
-            
+
 
 
 

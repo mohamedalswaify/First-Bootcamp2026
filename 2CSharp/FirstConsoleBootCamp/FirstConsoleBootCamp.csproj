@@ -43,27 +43,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="day1\Calc.cs" />
-    <Compile Include="day2\Calc.cs" />
-    <Compile Include="day2\Compute_BMI.cs" />
-    <Compile Include="day1\Compute_PCT.cs" />
-    <Compile Include="day1\Compute_salary.cs" />
-    <Compile Include="day1\Data_Type.cs" />
-    <Compile Include="day1\Program.cs" />
-    <Compile Include="day2\Compute_PCT_v2.cs" />
-    <Compile Include="day2\Compute_salary_V2.cs" />
-    <Compile Include="day2\Login.cs" />
-    <Compile Include="day2\Loops.cs" />
-    <Compile Include="day2\Qiuz.cs" />
-    <Compile Include="day3\Check_day.cs" />
-    <Compile Include="day3\Check_day_V2.cs" />
-    <Compile Include="day3\Compute_PCT_V3.cs" />
-    <Compile Include="day3\Compute_Salary_V3.cs" />
-    <Compile Include="day3\List.cs" />
-    <Compile Include="day3\Quiz_V2.cs" />
-    <Compile Include="level2\Calling.cs" />
-    <Compile Include="level2\Methods.cs" />
+    <Compile Include="week1\day1\Calc.cs" />
+    <Compile Include="week1\day2\Calc.cs" />
+    <Compile Include="week1\day2\Compute_BMI.cs" />
+    <Compile Include="week1\day1\Compute_PCT.cs" />
+    <Compile Include="week1\day1\Compute_salary.cs" />
+    <Compile Include="week1\day1\Data_Type.cs" />
+    <Compile Include="week1\day1\Program.cs" />
+    <Compile Include="week1\day2\Compute_PCT_v2.cs" />
+    <Compile Include="week1\day2\Compute_salary_V2.cs" />
+    <Compile Include="week1\day2\Login.cs" />
+    <Compile Include="week1\day2\Loops.cs" />
+    <Compile Include="week1\day2\Qiuz.cs" />
+    <Compile Include="week2\day3\Check_day.cs" />
+    <Compile Include="week2\day3\Check_day_V2.cs" />
+    <Compile Include="week2\day3\Compute_PCT_V3.cs" />
+    <Compile Include="week2\day3\Compute_Salary_V3.cs" />
+    <Compile Include="week2\day3\List.cs" />
+    <Compile Include="week2\day3\Quiz_V2.cs" />
+    <Compile Include="week2\level2\Calling.cs" />
+    <Compile Include="week2\level2\Methods.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="week3\day1\Return_Functions\Calling_Methods.cs" />
+    <Compile Include="week3\day1\Return_Functions\Methods.cs" />
+    <Compile Include="week3\day1\Void_Functions\Calling.cs" />
+    <Compile Include="week3\day1\Void_Functions\Methods.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
