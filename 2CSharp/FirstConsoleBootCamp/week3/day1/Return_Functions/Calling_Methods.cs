@@ -32,6 +32,53 @@ namespace FirstConsoleBootCamp.week3.day1.Return_Functions
 
             //----------------------Compute_Sal with  Parms------------
 
+            //Console.Write("Enter Employee Name: ");
+            //string name = Console.ReadLine();
+
+            //Console.Write("Enter Employee Salary: ");
+            //double salary = double.Parse(Console.ReadLine());
+
+            //Console.Write("Enter Employee Bonus: ");
+            //double bonus = double.Parse(Console.ReadLine());
+
+            //double data = met.Compute_Sal3(name, salary, bonus);
+            //Console.WriteLine(data);
+            //----------------------------------------------------
+
+            //-----------------Compute_Pct with  Prams---------------
+
+            //Console.Write("Enter Student Name: ");
+            //string name = Console.ReadLine();
+
+            //Console.WriteLine("Enter Student Mark:");
+            //double mark = double.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter Student Full Mark:");
+            //double fullMark = double.Parse(Console.ReadLine());
+
+            //double percentage = met.Compute_Pct3(name, mark, fullMark);
+            //Console.WriteLine(percentage);
+            //----------------------------------------------------
+
+            //-----------------Compute_Pct with  Prams---------------
+
+            //Console.Write("Enter Student Name: ");
+            //string name = Console.ReadLine();
+
+            //Console.WriteLine("Enter Student Mark:");
+            //double mark = double.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter Student Full Mark:");
+            //double fullMark = double.Parse(Console.ReadLine());
+
+            //double BMI = met.Compute_Pct3(name, mark, fullMark);
+            //Console.WriteLine(BMI);
+            //----------------------------------------------------
+
+
+
+            //----------------------Compute_Sal4 with  Parms------------
+
             Console.Write("Enter Employee Name: ");
             string name = Console.ReadLine();
 
@@ -41,10 +88,13 @@ namespace FirstConsoleBootCamp.week3.day1.Return_Functions
             Console.Write("Enter Employee Bonus: ");
             double bonus = double.Parse(Console.ReadLine());
 
-            double data = met.Compute_Sal3(name, salary, bonus);
-            Console.WriteLine(data);
-            //----------------------------------------------------
+            List<object> data = met.Compute_Sal4(name, salary, bonus);
+            foreach (object o in data)
+            {
+                Console.WriteLine(o);
+            }
 
+            //----------------------------------------------------
 
 
 

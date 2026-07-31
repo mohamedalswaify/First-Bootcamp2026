@@ -8,8 +8,8 @@ namespace FirstConsoleBootCamp.week3.day1.Return_Functions
 {
     internal class Methods
     {
-
-        public void Hello()
+        //---------------Void Functions--------------
+        public  void Hello()
         {
             Console.WriteLine("Mohamed Alswaify");
 
@@ -20,14 +20,6 @@ namespace FirstConsoleBootCamp.week3.day1.Return_Functions
             int res = num1 + num2;
             Console.WriteLine(res);
         }
-
-        public int Sum3(int num1, int num2)
-        {
-            int res = num1 + num2;
-           return(res);
-        }
-
-
         public void Compute_Sal2(string name, double salary, double bonus)
         {
             double totalSalary = salary + bonus;
@@ -38,15 +30,6 @@ namespace FirstConsoleBootCamp.week3.day1.Return_Functions
             Console.WriteLine("Bonus: " + bonus);
             Console.WriteLine("Total Salary: " + totalSalary);
             Console.WriteLine("Annual Salary: " + annualSalary);
-        }
-
-        public double Compute_Sal3(string name, double salary, double bonus)
-        {
-            double totalSalary = salary + bonus;
-            double annualSalary = totalSalary * 12;
-
-            return (annualSalary);
-
         }
 
         public void Compute_Pct2(string name, double mark, double fullMark)
@@ -70,7 +53,65 @@ namespace FirstConsoleBootCamp.week3.day1.Return_Functions
             Console.WriteLine($"Patient BMI: {BMI} ");
 
         }
+        //-----------------------------------------------------------------------------
 
 
+        //---------------Return Functions--------------
+
+
+        public int Sum3(int num1, int num2)
+        {
+            int res = num1 + num2;
+           return(res);
+        }
+
+        public double Compute_Sal3(string name, double salary, double bonus)
+        {
+            double totalSalary = salary + bonus;
+            double annualSalary = totalSalary * 12;
+
+            return (annualSalary);
+
+        }
+
+        public List<object> Compute_Sal4(string name, double salary, double bonus)
+        {
+            double totalSalary = salary + bonus;
+            double annualSalary = totalSalary * 12;
+
+            List<object> data = new List<object>();
+
+            data.Add(name);
+            data.Add(totalSalary);
+            data.Add(annualSalary);
+
+
+            return (data);
+
+        }
+
+
+        public double Compute_Pct3(string name, double mark, double fullMark)
+        {
+
+
+
+            double percentage = (mark / fullMark) * 100;
+            return (percentage);
+          
+        }
+
+      
+        public double Compute_BMI3(string name, double weight, double height)
+        {
+
+            double BMI = weight / Math.Pow((height / 100), 2);
+            return (BMI);
+
+          
+
+        }
+
+        //-----------------------------------------------------------------------------
     }
 }
