@@ -68,6 +68,12 @@
     <Compile Include="week3\day1\Return_Functions\Methods.cs" />
     <Compile Include="week3\day1\Void_Functions\Calling.cs" />
     <Compile Include="week3\day1\Void_Functions\Methods.cs" />
+    <Compile Include="week3\day2\OOP_Level3\Employee.cs" />
+    <Compile Include="week3\day2\OOP_Level3\Employee_Test.cs" />
+    <Compile Include="week3\day2\OOP_Level3\Room.cs" />
+    <Compile Include="week3\day2\OOP_Level3\Room_Test.cs" />
+    <Compile Include="week3\day2\OOP_Level3\Student.cs" />
+    <Compile Include="week3\day2\OOP_Level3\Student_Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

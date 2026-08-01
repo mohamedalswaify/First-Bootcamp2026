@@ -80,38 +80,50 @@ namespace FirstConsoleBootCamp.week3.day1.Return_Functions
             double annualSalary = totalSalary * 12;
 
             List<object> data = new List<object>();
-
             data.Add(name);
             data.Add(totalSalary);
             data.Add(annualSalary);
-
-
             return (data);
 
         }
 
-
         public double Compute_Pct3(string name, double mark, double fullMark)
         {
-
-
-
             double percentage = (mark / fullMark) * 100;
             return (percentage);
-          
         }
 
-      
+        public List<object> Compute_Pct4(string name, double mark, double fullMark)
+        {
+
+            double percentage = (mark / fullMark) * 100;
+            List<object> data = new List<object>();
+            data.Add(name);
+            data.Add(mark);
+            data.Add(percentage);
+            return (data);
+
+        }
+
         public double Compute_BMI3(string name, double weight, double height)
         {
 
             double BMI = weight / Math.Pow((height / 100), 2);
             return (BMI);
 
-          
-
         }
 
+        public List<object> Compute_BMI4(string name, double weight, double height)
+        {
+            double BMI = weight / Math.Pow((height / 100), 2);
+            List<object> data = new List<object>();
+            data.Add(name);
+            data.Add(weight);
+            data.Add(height);
+            data.Add(BMI);
+            return (data);
+
+        }
         //-----------------------------------------------------------------------------
     }
 }

@@ -9,7 +9,7 @@ namespace FirstConsoleBootCamp.week3.day1.Return_Functions
     internal class Calling_Methods
     {
 
-        static void Main()
+        static void Mainn()
         {
             Methods met = new Methods();
 
@@ -79,24 +79,61 @@ namespace FirstConsoleBootCamp.week3.day1.Return_Functions
 
             //----------------------Compute_Sal4 with  Parms------------
 
-            Console.Write("Enter Employee Name: ");
-            string name = Console.ReadLine();
+            //Console.Write("Enter Employee Name: ");
+            //string name = Console.ReadLine();
 
-            Console.Write("Enter Employee Salary: ");
-            double salary = double.Parse(Console.ReadLine());
+            //Console.Write("Enter Employee Salary: ");
+            //double salary = double.Parse(Console.ReadLine());
 
-            Console.Write("Enter Employee Bonus: ");
-            double bonus = double.Parse(Console.ReadLine());
+            //Console.Write("Enter Employee Bonus: ");
+            //double bonus = double.Parse(Console.ReadLine());
 
-            List<object> data = met.Compute_Sal4(name, salary, bonus);
-            foreach (object o in data)
-            {
-                Console.WriteLine(o);
-            }
+            //List<object> data = met.Compute_Sal4(name, salary, bonus);
+            //foreach (object o in data)
+            //{
+            //    Console.WriteLine(o);
+            //}
 
             //----------------------------------------------------
 
 
+
+            //-----------------Compute_Pct with  Prams---------------
+
+            //Console.Write("Enter Student Name: ");
+            //string name = Console.ReadLine();
+
+            //Console.WriteLine("Enter Student Mark:");
+            //double mark = double.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter Student Full Mark:");
+            //double fullMark = double.Parse(Console.ReadLine());
+
+            //List<object> data = met.Compute_Pct4(name, mark, fullMark);
+
+            //foreach (object o in data)
+            //    Console.WriteLine(o);
+
+            //----------------------------------------------------
+
+
+            //-----------------Compute_BMI with  Prams---------------
+
+            Console.Write("Enter Patient Name: ");
+            string name = Console.ReadLine();
+
+            Console.Write("Enter Patient Weight: ");
+            double weight = Convert.ToInt16(Console.ReadLine());
+
+            Console.Write("Enter Patient Height: ");
+             double height = double.Parse(Console.ReadLine());
+
+            List<object> data = met.Compute_BMI4(name, weight, height);
+
+            foreach (object o in data)
+                Console.WriteLine(o);
+
+            //----------------------------------------------------
 
             Console.ReadKey();
         }
