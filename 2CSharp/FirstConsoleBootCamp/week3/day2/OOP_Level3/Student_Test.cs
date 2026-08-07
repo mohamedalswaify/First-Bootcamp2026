@@ -8,7 +8,7 @@ namespace FirstConsoleBootCamp.week3.day2.OOP_Level3
 {
     internal class Student_Test
     {
-        static void Main(string[] args)
+        static void Mainn(string[] args)
         {
             Student s1 = new Student("Ali", 35, 50);
             s1.Mark = -25;

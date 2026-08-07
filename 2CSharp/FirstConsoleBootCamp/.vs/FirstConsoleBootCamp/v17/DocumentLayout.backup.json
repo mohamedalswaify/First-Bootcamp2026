@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\2CSharp\\FirstConsoleBootCamp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA9CEDE1-D3BD-4FB3-B72D-AF4E77091426}|FirstConsoleBootCamp.csproj|c:\\users\\lenovo\\desktop\\first bootcamp\\2csharp\\firstconsolebootcamp\\week3\\day2\\oop_level3\\student_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA9CEDE1-D3BD-4FB3-B72D-AF4E77091426}|FirstConsoleBootCamp.csproj|solutionrelative:week3\\day2\\oop_level3\\student_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA9CEDE1-D3BD-4FB3-B72D-AF4E77091426}|FirstConsoleBootCamp.csproj|c:\\users\\lenovo\\desktop\\first bootcamp\\2csharp\\firstconsolebootcamp\\week3\\day2\\oop_level3\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA9CEDE1-D3BD-4FB3-B72D-AF4E77091426}|FirstConsoleBootCamp.csproj|solutionrelative:week3\\day2\\oop_level3\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA9CEDE1-D3BD-4FB3-B72D-AF4E77091426}|FirstConsoleBootCamp.csproj|c:\\users\\lenovo\\desktop\\first bootcamp\\2csharp\\firstconsolebootcamp\\week3\\day2\\oop_level3\\employee_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA9CEDE1-D3BD-4FB3-B72D-AF4E77091426}|FirstConsoleBootCamp.csproj|solutionrelative:week3\\day2\\oop_level3\\employee_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA9CEDE1-D3BD-4FB3-B72D-AF4E77091426}|FirstConsoleBootCamp.csproj|c:\\users\\lenovo\\desktop\\first bootcamp\\2csharp\\firstconsolebootcamp\\week4\\day1\\accounts\\accounttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9CEDE1-D3BD-4FB3-B72D-AF4E77091426}|FirstConsoleBootCamp.csproj|solutionrelative:week4\\day1\\accounts\\accounttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,8 +13,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 206,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 216,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,47 +22,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Employee_Test.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\2CSharp\\FirstConsoleBootCamp\\week3\\day2\\OOP_Level3\\Employee_Test.cs",
-              "RelativeDocumentMoniker": "week3\\day2\\OOP_Level3\\Employee_Test.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\2CSharp\\FirstConsoleBootCamp\\week3\\day2\\OOP_Level3\\Employee_Test.cs",
-              "RelativeToolTip": "week3\\day2\\OOP_Level3\\Employee_Test.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T14:53:39.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\2CSharp\\FirstConsoleBootCamp\\week3\\day2\\OOP_Level3\\Student.cs",
-              "RelativeDocumentMoniker": "week3\\day2\\OOP_Level3\\Student.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\2CSharp\\FirstConsoleBootCamp\\week3\\day2\\OOP_Level3\\Student.cs",
-              "RelativeToolTip": "week3\\day2\\OOP_Level3\\Student.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAmwA8AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T14:45:59.666Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Student_Test.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\2CSharp\\FirstConsoleBootCamp\\week3\\day2\\OOP_Level3\\Student_Test.cs",
-              "RelativeDocumentMoniker": "week3\\day2\\OOP_Level3\\Student_Test.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\2CSharp\\FirstConsoleBootCamp\\week3\\day2\\OOP_Level3\\Student_Test.cs*",
-              "RelativeToolTip": "week3\\day2\\OOP_Level3\\Student_Test.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAXAAAAAAAAAA==",
+              "Title": "AccountTest.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\2CSharp\\FirstConsoleBootCamp\\week4\\day1\\Accounts\\AccountTest.cs",
+              "RelativeDocumentMoniker": "week4\\day1\\Accounts\\AccountTest.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\2CSharp\\FirstConsoleBootCamp\\week4\\day1\\Accounts\\AccountTest.cs*",
+              "RelativeToolTip": "week4\\day1\\Accounts\\AccountTest.cs*",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwCcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T14:54:19.516Z",
+              "WhenOpened": "2026-08-07T14:59:31.1Z",
               "EditorCaption": ""
             }
           ]

@@ -74,6 +74,21 @@
     <Compile Include="week3\day2\OOP_Level3\Room_Test.cs" />
     <Compile Include="week3\day2\OOP_Level3\Student.cs" />
     <Compile Include="week3\day2\OOP_Level3\Student_Test.cs" />
+    <Compile Include="week4\day1\Accounts\AccountTest.cs" />
+    <Compile Include="week4\day1\Accounts\BankAccount.cs" />
+    <Compile Include="week4\day1\Accounts\CurrentAccount.cs" />
+    <Compile Include="week4\day1\Accounts\SavingsAccount.cs" />
+    <Compile Include="week4\day1\Accounts\Task.cs" />
+    <Compile Include="week4\day1\EmpsV2\Employee.cs" />
+    <Compile Include="week4\day1\EmpsV2\EmployeeBase.cs" />
+    <Compile Include="week4\day1\EmpsV2\EmployeeHour.cs" />
+    <Compile Include="week4\day1\EmpsV2\EmployeeTest.cs" />
+    <Compile Include="week4\day1\Emps\Employee.cs" />
+    <Compile Include="week4\day1\Emps\EmployeeBase.cs" />
+    <Compile Include="week4\day1\Emps\EmployeeHour.cs" />
+    <Compile Include="week4\day1\Emps\EmployeeTest.cs" />
+    <Compile Include="week4\day1\Task_Patient\Patient.cs" />
+    <Compile Include="week4\day1\Task_Patient\Patient_Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
