@@ -20,6 +20,12 @@ namespace FirstConsoleBootCamp.week4.day2.Cars
             Price = price;
         }
 
+        public Vehicle()
+        {
+            Brand = "";
+            Model = "";
+            Price = 0;
+        }
         public string DisplayDetails()
         {
            return($"Brand: {Brand}, Model: {Model}, Price: {Price}");

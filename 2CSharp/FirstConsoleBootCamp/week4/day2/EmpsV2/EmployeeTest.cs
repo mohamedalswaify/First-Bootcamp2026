@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FirstConsoleBootCamp.week4.day2.EmpsV2;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,15 +19,17 @@ namespace FirstConsoleBootCamp.week4.day2.Empsv2
             //Console.WriteLine($"{e2.DisplayEmployeeDetails()} ,Annual {e2.CalculateAnnualSalary()}");
             //Console.WriteLine($"{e3.DisplayEmployeeDetails()} ,Annual {e3.CalculateAnnualSalary()}");
 
-            Employee[] employees = {
-                new Employee("John Doe", 30, 1000),
+            IEmployee[] employees = {
+               // new Employee("John Doe", 30, 1000),
                 new EmployeeBase("Jane Smith", 28, 1000,500),
-                new EmployeeHour("Mike Johnson", 25, 1000,10,60)
+                new EmployeeHour("Mike Johnson", 25, 1000,10,60),
+                new FreeLancer("Alice Brown", 2000)
             };
 
             foreach (var emp in employees)
             {
                 Console.WriteLine($"{emp.DisplayEmployeeDetails()} ,Annual {emp.CalculateAnnualSalary()}");
+                
             }
 
 

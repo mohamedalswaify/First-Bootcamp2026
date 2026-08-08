@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FirstConsoleBootCamp.week4.day2.EmpsV2;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace FirstConsoleBootCamp.week4.day2.Empsv2
 {
-    public class Employee
+    public abstract class Employee :IEmployee
     {
 
         public string Name { get; set; }
@@ -51,12 +52,13 @@ namespace FirstConsoleBootCamp.week4.day2.Empsv2
             return $"Name: {Name}, Age: {Age}, Salary: {Salary} ";
         }
 
-        public virtual double CalculateAnnualSalary()
+        public abstract double CalculateAnnualSalary();
+     
+
+        public virtual void Hello()
         {
-            double annual = Salary * 12;
-            return annual;
+            Console.WriteLine();
         }
-
-
+       
     }
 }

@@ -27,10 +27,10 @@ namespace FirstConsoleBootCamp.week4.day2.Empsv2
 
         public override double CalculateAnnualSalary()
         {
-            double annual = (Salary +(Hours * HourlyRate)) * 12;
+            double annual = (Salary + (Hours * HourlyRate)) * 12;
             return annual;
         }
 
-
+        
     }
 }

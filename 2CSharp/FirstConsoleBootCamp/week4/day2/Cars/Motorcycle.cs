@@ -20,5 +20,10 @@ namespace FirstConsoleBootCamp.week4.day2.Cars
         {
             return "Motorcycle is doing a wheelie!";
         }
-    }
+
+        public string DoWheelie(int durationInSeconds)
+        {
+            return $"Motorcycle is doing a wheelie for {durationInSeconds} seconds!"
+   }
+                }
 }

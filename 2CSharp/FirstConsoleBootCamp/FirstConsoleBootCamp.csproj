@@ -97,6 +97,9 @@
     <Compile Include="week4\day2\EmpsV2\EmployeeBase.cs" />
     <Compile Include="week4\day2\EmpsV2\EmployeeHour.cs" />
     <Compile Include="week4\day2\EmpsV2\EmployeeTest.cs" />
+    <Compile Include="week4\day2\EmpsV2\FreeLancer.cs" />
+    <Compile Include="week4\day2\EmpsV2\IEmployee.cs" />
+    <Compile Include="week4\day2\EmpsV2\IPrintable.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

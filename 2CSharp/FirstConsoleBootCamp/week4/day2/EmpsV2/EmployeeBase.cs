@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FirstConsoleBootCamp.week4.day2.EmpsV2;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,6 +30,38 @@ namespace FirstConsoleBootCamp.week4.day2.Empsv2
             return annual;
         }
 
+        public string IsEligibleForBonus()
+        {
+            if (Bonus > 0)
+            {
+                return "Eligible for bonus";
+            }
+            else
+            {
+                return "Not eligible for bonus";
+            }
+        }
 
+
+        public string IsEligibleForBonus(double amount )
+        {
+            if (Bonus > amount)
+            {
+                return "Eligible for bonus";
+            }
+            else
+            {
+                return "Not eligible for bonus";
+            }
+
+        }
+
+
+        public double add(double a, int b)
+        {
+            return a + b;
+        }
+
+     
     }
 }
