@@ -8,7 +8,7 @@ namespace FirstConsoleBootCamp.week4.day1.Accounts
 {
     internal class AccountTest
     {
-        static void Main(string[] args)
+        static void Mainn(string[] args)
         {
             //// Create instances of BankAccount, SavingsAccount, and CurrentAccount
             //BankAccount bankAccount = new BankAccount("BA123", "John Doe", 1000);

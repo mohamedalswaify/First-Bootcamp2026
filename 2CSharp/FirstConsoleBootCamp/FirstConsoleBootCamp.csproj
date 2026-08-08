@@ -89,6 +89,14 @@
     <Compile Include="week4\day1\Emps\EmployeeTest.cs" />
     <Compile Include="week4\day1\Task_Patient\Patient.cs" />
     <Compile Include="week4\day1\Task_Patient\Patient_Test.cs" />
+    <Compile Include="week4\day2\Cars\Car.cs" />
+    <Compile Include="week4\day2\Cars\Motorcycle.cs" />
+    <Compile Include="week4\day2\Cars\Vehicle.cs" />
+    <Compile Include="week4\day2\Cars\VehicleTest.cs" />
+    <Compile Include="week4\day2\EmpsV2\Employee.cs" />
+    <Compile Include="week4\day2\EmpsV2\EmployeeBase.cs" />
+    <Compile Include="week4\day2\EmpsV2\EmployeeHour.cs" />
+    <Compile Include="week4\day2\EmpsV2\EmployeeTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
