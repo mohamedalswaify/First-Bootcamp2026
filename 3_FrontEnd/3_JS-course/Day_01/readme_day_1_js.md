@@ -46,6 +46,8 @@ Below is a list of all the HTML tasks and demo files with a short description fo
 ### `7.day_1_js_course.html`
 - Main interactive lesson: variables, inputs, output, and conditions.
 
+### `8.ScoreEvaluation.html`
+- Score evaluation using user-entered value with `if-else` to print result.
 
 ### `task_1_show_age.html`
 - User inputs their age and it's shown in a message below.
