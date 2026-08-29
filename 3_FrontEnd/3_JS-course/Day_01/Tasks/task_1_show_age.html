@@ -1,0 +1,46 @@
+<!-- <script>
+    var Age  = prompt("Enter Your Age")
+    document.write(`<h2>Your Age:${Age}</h2>`);
+</script> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+    body {
+      font-family: Arial;
+      padding: 20px;
+    }
+    .output {
+      margin-top: 15px;
+      padding: 10px;
+      background-color: #e7f3ff;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Task 1: Show Age</h2>
+  <label for="ageInput">Enter your age:</label>
+  <input type="number" id="ageInput" value="30">
+      <button  onclick="ShowAge()" >Show Age</button>
+    <div class="output" id="ageResult"></div>
+    <script>
+function ShowAge()
+{
+    let age = document.getElementById("ageInput").value;
+if(age.trim() === "")
+{
+    document.getElementById("ageResult").innerText= `Please Enter Your Age!`;
+}
+    else{
+      document.getElementById("ageResult").innerText= `Your Age ${age}`;
+}
+    }
+  
+    </script>
+</body>
+</html>
