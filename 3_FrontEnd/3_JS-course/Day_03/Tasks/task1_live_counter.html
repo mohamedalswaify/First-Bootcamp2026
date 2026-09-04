@@ -10,5 +10,13 @@
     <p>Remaining characters: <span id="charCount">100</span></p>
 
     
+    <script>
+    const textarea = document.getElementById('textArea');
+    const charCount = document.getElementById('charCount');
+
+    textarea.addEventListener('input', () => {
+      charCount.innerText = 100 - textarea.value.length;
+    });
+    </script>
 </body>
 </html>
