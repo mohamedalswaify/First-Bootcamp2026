@@ -13,7 +13,25 @@
         <button type="submit">Submit</button>
         <p id="errorMsg" style="color:red;"></p>
     </form>
+    
+    <script>
+          document.getElementById('myForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+    const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const errorMsg = document.getElementById('errorMsg');
 
+  if (!name || !email || !phone) {
+        errorMsg.innerText = 'All fields are required!';
+      } else {
+        errorMsg.innerText = '';
+        alert('Form submitted!');
+      }
+
+
+          });
+    </script>
 </body>
 </html>
 
