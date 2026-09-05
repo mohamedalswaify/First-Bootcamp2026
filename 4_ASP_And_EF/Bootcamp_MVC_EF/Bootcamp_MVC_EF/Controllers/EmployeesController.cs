@@ -1,0 +1,21 @@
+﻿using Bootcamp_MVC_EF.Models;
+using Microsoft.AspNetCore.Mvc;
+
+namespace Bootcamp_MVC_EF.Controllers
+{
+    public class EmployeesController : Controller
+    {
+        public ActionResult Index()
+        {
+            IList<Employee> employees = new List<Employee>
+            {
+                new Employee { Id = 1, Name = "Alice", Position = "Developer", Salary = 60000 },
+                new Employee { Id = 2, Name = "Bob", Position = "Manager", Salary = 80000 },
+                new Employee { Id = 3, Name = "Charlie", Position = "Tester", Salary = 50000 }
+            };
+
+            return View(employees);
+        }
+
+    }
+}
