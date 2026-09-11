@@ -3,20 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1DD4B543-C153-46C3-B1C8-90C16C232628}|Bootcamp_MVC_EF\\Bootcamp_MVC_EF.csproj|c:\\users\\lenovo\\desktop\\first bootcamp\\4_asp_and_ef\\bootcamp_mvc_ef\\bootcamp_mvc_ef\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DD4B543-C153-46C3-B1C8-90C16C232628}|Bootcamp_MVC_EF\\Bootcamp_MVC_EF.csproj|solutionrelative:bootcamp_mvc_ef\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1DD4B543-C153-46C3-B1C8-90C16C232628}|Bootcamp_MVC_EF\\Bootcamp_MVC_EF.csproj|c:\\users\\lenovo\\desktop\\first bootcamp\\4_asp_and_ef\\bootcamp_mvc_ef\\bootcamp_mvc_ef\\migrations\\20260911145035_addcolumnamount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DD4B543-C153-46C3-B1C8-90C16C232628}|Bootcamp_MVC_EF\\Bootcamp_MVC_EF.csproj|solutionrelative:bootcamp_mvc_ef\\migrations\\20260911145035_addcolumnamount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DD4B543-C153-46C3-B1C8-90C16C232628}|Bootcamp_MVC_EF\\Bootcamp_MVC_EF.csproj|c:\\users\\lenovo\\desktop\\first bootcamp\\4_asp_and_ef\\bootcamp_mvc_ef\\bootcamp_mvc_ef\\migrations\\20260911145131_dropcolumnamount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DD4B543-C153-46C3-B1C8-90C16C232628}|Bootcamp_MVC_EF\\Bootcamp_MVC_EF.csproj|solutionrelative:bootcamp_mvc_ef\\migrations\\20260911145131_dropcolumnamount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DD4B543-C153-46C3-B1C8-90C16C232628}|Bootcamp_MVC_EF\\Bootcamp_MVC_EF.csproj|c:\\users\\lenovo\\desktop\\first bootcamp\\4_asp_and_ef\\bootcamp_mvc_ef\\bootcamp_mvc_ef\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DD4B543-C153-46C3-B1C8-90C16C232628}|Bootcamp_MVC_EF\\Bootcamp_MVC_EF.csproj|solutionrelative:bootcamp_mvc_ef\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1DD4B543-C153-46C3-B1C8-90C16C232628}|Bootcamp_MVC_EF\\Bootcamp_MVC_EF.csproj|c:\\users\\lenovo\\desktop\\first bootcamp\\4_asp_and_ef\\bootcamp_mvc_ef\\bootcamp_mvc_ef\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1DD4B543-C153-46C3-B1C8-90C16C232628}|Bootcamp_MVC_EF\\Bootcamp_MVC_EF.csproj|solutionrelative:bootcamp_mvc_ef\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1DD4B543-C153-46C3-B1C8-90C16C232628}|Bootcamp_MVC_EF\\Bootcamp_MVC_EF.csproj|c:\\users\\lenovo\\desktop\\first bootcamp\\4_asp_and_ef\\bootcamp_mvc_ef\\bootcamp_mvc_ef\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DD4B543-C153-46C3-B1C8-90C16C232628}|Bootcamp_MVC_EF\\Bootcamp_MVC_EF.csproj|solutionrelative:bootcamp_mvc_ef\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DD4B543-C153-46C3-B1C8-90C16C232628}|Bootcamp_MVC_EF\\Bootcamp_MVC_EF.csproj|c:\\users\\lenovo\\desktop\\first bootcamp\\4_asp_and_ef\\bootcamp_mvc_ef\\bootcamp_mvc_ef\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DD4B543-C153-46C3-B1C8-90C16C232628}|Bootcamp_MVC_EF\\Bootcamp_MVC_EF.csproj|solutionrelative:bootcamp_mvc_ef\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DD4B543-C153-46C3-B1C8-90C16C232628}|Bootcamp_MVC_EF\\Bootcamp_MVC_EF.csproj|c:\\users\\lenovo\\desktop\\first bootcamp\\4_asp_and_ef\\bootcamp_mvc_ef\\bootcamp_mvc_ef\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DD4B543-C153-46C3-B1C8-90C16C232628}|Bootcamp_MVC_EF\\Bootcamp_MVC_EF.csproj|solutionrelative:bootcamp_mvc_ef\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1DD4B543-C153-46C3-B1C8-90C16C232628}|Bootcamp_MVC_EF\\Bootcamp_MVC_EF.csproj|c:\\users\\lenovo\\desktop\\first bootcamp\\4_asp_and_ef\\bootcamp_mvc_ef\\bootcamp_mvc_ef\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1DD4B543-C153-46C3-B1C8-90C16C232628}|Bootcamp_MVC_EF\\Bootcamp_MVC_EF.csproj|solutionrelative:bootcamp_mvc_ef\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DD4B543-C153-46C3-B1C8-90C16C232628}|Bootcamp_MVC_EF\\Bootcamp_MVC_EF.csproj|c:\\users\\lenovo\\desktop\\first bootcamp\\4_asp_and_ef\\bootcamp_mvc_ef\\bootcamp_mvc_ef\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DD4B543-C153-46C3-B1C8-90C16C232628}|Bootcamp_MVC_EF\\Bootcamp_MVC_EF.csproj|solutionrelative:bootcamp_mvc_ef\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1DD4B543-C153-46C3-B1C8-90C16C232628}|Bootcamp_MVC_EF\\Bootcamp_MVC_EF.csproj|c:\\users\\lenovo\\desktop\\first bootcamp\\4_asp_and_ef\\bootcamp_mvc_ef\\bootcamp_mvc_ef\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1DD4B543-C153-46C3-B1C8-90C16C232628}|Bootcamp_MVC_EF\\Bootcamp_MVC_EF.csproj|solutionrelative:bootcamp_mvc_ef\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DD4B543-C153-46C3-B1C8-90C16C232628}|Bootcamp_MVC_EF\\Bootcamp_MVC_EF.csproj|c:\\users\\lenovo\\desktop\\first bootcamp\\4_asp_and_ef\\bootcamp_mvc_ef\\bootcamp_mvc_ef\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DD4B543-C153-46C3-B1C8-90C16C232628}|Bootcamp_MVC_EF\\Bootcamp_MVC_EF.csproj|solutionrelative:bootcamp_mvc_ef\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DD4B543-C153-46C3-B1C8-90C16C232628}|Bootcamp_MVC_EF\\Bootcamp_MVC_EF.csproj|c:\\users\\lenovo\\desktop\\first bootcamp\\4_asp_and_ef\\bootcamp_mvc_ef\\bootcamp_mvc_ef\\views\\departments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DD4B543-C153-46C3-B1C8-90C16C232628}|Bootcamp_MVC_EF\\Bootcamp_MVC_EF.csproj|solutionrelative:bootcamp_mvc_ef\\views\\departments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DD4B543-C153-46C3-B1C8-90C16C232628}|Bootcamp_MVC_EF\\Bootcamp_MVC_EF.csproj|c:\\users\\lenovo\\desktop\\first bootcamp\\4_asp_and_ef\\bootcamp_mvc_ef\\bootcamp_mvc_ef\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DD4B543-C153-46C3-B1C8-90C16C232628}|Bootcamp_MVC_EF\\Bootcamp_MVC_EF.csproj|solutionrelative:bootcamp_mvc_ef\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\Migrations\\20260911143507_AddTableDept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bootcamp_MVC_EF\\Migrations\\20260911143507_AddTableDept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,39 +70,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\Views\\Employees\\Index.cshtml",
-              "RelativeDocumentMoniker": "Bootcamp_MVC_EF\\Views\\Employees\\Index.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\Views\\Employees\\Index.cshtml",
-              "RelativeToolTip": "Bootcamp_MVC_EF\\Views\\Employees\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-11T13:50:37.357Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Bootcamp_MVC_EF\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Bootcamp_MVC_EF\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-11T12:03:19.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20260911145035_AddColumnAmount.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\Migrations\\20260911145035_AddColumnAmount.cs",
+              "RelativeDocumentMoniker": "Bootcamp_MVC_EF\\Migrations\\20260911145035_AddColumnAmount.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\Migrations\\20260911145035_AddColumnAmount.cs",
+              "RelativeToolTip": "Bootcamp_MVC_EF\\Migrations\\20260911145035_AddColumnAmount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T14:52:25.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20260911145131_DropColumnAmount.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\Migrations\\20260911145131_DropColumnAmount.cs",
+              "RelativeDocumentMoniker": "Bootcamp_MVC_EF\\Migrations\\20260911145131_DropColumnAmount.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\Migrations\\20260911145131_DropColumnAmount.cs",
+              "RelativeToolTip": "Bootcamp_MVC_EF\\Migrations\\20260911145131_DropColumnAmount.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T14:51:32.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\Program.cs",
+              "RelativeDocumentMoniker": "Bootcamp_MVC_EF\\Program.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\Program.cs",
+              "RelativeToolTip": "Bootcamp_MVC_EF\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T14:45:18.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "Bootcamp_MVC_EF\\Models\\Department.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\Models\\Department.cs",
+              "RelativeToolTip": "Bootcamp_MVC_EF\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T14:34:10.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "EmployeesController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\Controllers\\EmployeesController.cs",
               "RelativeDocumentMoniker": "Bootcamp_MVC_EF\\Controllers\\EmployeesController.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\Controllers\\EmployeesController.cs",
               "RelativeToolTip": "Bootcamp_MVC_EF\\Controllers\\EmployeesController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBcAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-11T11:56:22.483Z",
               "EditorCaption": ""
@@ -74,14 +136,105 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\Views\\Employees\\Index.cshtml",
+              "RelativeDocumentMoniker": "Bootcamp_MVC_EF\\Views\\Employees\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\Views\\Employees\\Index.cshtml",
+              "RelativeToolTip": "Bootcamp_MVC_EF\\Views\\Employees\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwBUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-11T13:50:37.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Bootcamp_MVC_EF\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Bootcamp_MVC_EF\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T12:03:19.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "Bootcamp_MVC_EF\\Models\\Employee.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\Models\\Employee.cs",
               "RelativeToolTip": "Bootcamp_MVC_EF\\Models\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wAsAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-11T11:52:55.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\appsettings.json",
+              "RelativeDocumentMoniker": "Bootcamp_MVC_EF\\appsettings.json",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\appsettings.json",
+              "RelativeToolTip": "Bootcamp_MVC_EF\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-11T14:45:15.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20260911143507_AddTableDept.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\Migrations\\20260911143507_AddTableDept.cs",
+              "RelativeDocumentMoniker": "Bootcamp_MVC_EF\\Migrations\\20260911143507_AddTableDept.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\Migrations\\20260911143507_AddTableDept.cs",
+              "RelativeToolTip": "Bootcamp_MVC_EF\\Migrations\\20260911143507_AddTableDept.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T14:35:08.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\Controllers\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "Bootcamp_MVC_EF\\Controllers\\DepartmentsController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\Controllers\\DepartmentsController.cs",
+              "RelativeToolTip": "Bootcamp_MVC_EF\\Controllers\\DepartmentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T14:38:29.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Bootcamp_MVC_EF\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Bootcamp_MVC_EF\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-11T14:01:04.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\Views\\Departments\\Index.cshtml",
+              "RelativeDocumentMoniker": "Bootcamp_MVC_EF\\Views\\Departments\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\First Bootcamp\\4_ASP_And_EF\\Bootcamp_MVC_EF\\Bootcamp_MVC_EF\\Views\\Departments\\Index.cshtml",
+              "RelativeToolTip": "Bootcamp_MVC_EF\\Views\\Departments\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-11T14:40:55.769Z",
               "EditorCaption": ""
             }
           ]
