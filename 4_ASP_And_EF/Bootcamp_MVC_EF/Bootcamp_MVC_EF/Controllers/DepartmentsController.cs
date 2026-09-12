@@ -21,6 +21,23 @@ namespace Bootcamp_MVC_EF.Controllers
             return View(depts);
         }
 
+        [HttpGet]
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Create(Department department)
+        {
+            _db.Departments.Add(department); 
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+
+
+        }
+
+
 
     }
 }
