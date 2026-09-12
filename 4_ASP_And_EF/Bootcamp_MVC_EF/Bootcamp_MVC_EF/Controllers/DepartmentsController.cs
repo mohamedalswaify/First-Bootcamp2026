@@ -30,10 +30,71 @@ namespace Bootcamp_MVC_EF.Controllers
         [HttpPost]
         public ActionResult Create(Department department)
         {
-            _db.Departments.Add(department); 
-            _db.SaveChanges();
-            return RedirectToAction("Index");
+            if (ModelState.IsValid)
+            {
+                _db.Departments.Add(department);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            ModelState.AddModelError("", "Please fill all the required fields.");
+            return View(department);
+          
+        }
 
+
+        //===============
+        //Edit
+        //==========================
+        [HttpGet]
+        public ActionResult Edit(int Id)
+        {
+            var dept = _db.Departments.Find(Id);
+            if (dept == null)
+            {
+                return NotFound();
+            }
+
+            return View(dept);
+        }
+
+        [HttpPost]
+        public ActionResult Edit(Department department)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Departments.Update(department);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            ModelState.AddModelError("", "Please fill all the required fields.");
+            return View(department);
+
+        }
+
+
+        //===============
+        //Delete
+        //==========================
+        [HttpGet]
+        public ActionResult Delete(int Id)
+        {
+            var dept = _db.Departments.Find(Id);
+            if (dept == null)
+            {
+                return NotFound();
+            }
+
+            return View(dept);
+        }
+
+        [HttpPost]
+        public ActionResult Delete(Department department)
+        {
+            
+                _db.Departments.Remove(department);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+         
 
         }
 

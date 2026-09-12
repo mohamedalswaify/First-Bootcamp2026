@@ -25,6 +25,20 @@ namespace Bootcamp_MVC_EF.Controllers
             return View(employees);
         }
 
+
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Create(Employee employee)
+        {
+            _db.Employees.Add(employee);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
         //public ActionResult Index()
         //{
         //    //Adoo.Net Approach
