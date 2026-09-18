@@ -145,3 +145,4 @@ C:\Users\LENOVO\Desktop\First Bootcamp\4_ASP_And_EF\Bootcamp_MVC_EF\Bootcamp_MVC
 C:\Users\LENOVO\Desktop\First Bootcamp\4_ASP_And_EF\Bootcamp_MVC_EF\Bootcamp_MVC_EF\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\LENOVO\Desktop\First Bootcamp\4_ASP_And_EF\Bootcamp_MVC_EF\Bootcamp_MVC_EF\obj\Debug\net8.0\Bootcamp_MVC_EF.csproj.AssemblyReference.cache
 C:\Users\LENOVO\Desktop\First Bootcamp\4_ASP_And_EF\Bootcamp_MVC_EF\Bootcamp_MVC_EF\obj\Debug\net8.0\Bootcamp.50FA5813.Up2Date
+C:\Users\LENOVO\Desktop\First Bootcamp\4_ASP_And_EF\Bootcamp_MVC_EF\Bootcamp_MVC_EF\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout - Copy.cshtml.rz.scp.css
