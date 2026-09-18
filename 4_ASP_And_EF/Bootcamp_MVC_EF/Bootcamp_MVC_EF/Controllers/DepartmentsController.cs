@@ -1,9 +1,11 @@
 ﻿using Bootcamp_MVC_EF.Data;
 using Bootcamp_MVC_EF.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Bootcamp_MVC_EF.Controllers
 {
+    [Authorize]
     public class DepartmentsController : Controller
     {
         //DI 

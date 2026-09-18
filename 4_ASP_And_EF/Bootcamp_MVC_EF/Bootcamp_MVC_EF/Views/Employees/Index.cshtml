@@ -1,8 +1,15 @@
 ﻿@model IEnumerable<Employee>
+@{
+    ViewData["Title"] = "Employees Page";
+}
 
 <div class="container">
 
+    <h1>Employees</h1>
 
+    <div class="text-end">
+        <a asp-action="Create" class="btn btn-primary"> New Department </a>
+    </div>
     <table class="table table-striped">
         <thead>
             <tr>
