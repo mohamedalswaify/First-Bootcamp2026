@@ -14,6 +14,8 @@ namespace Bootcamp_MVC_EF.Data
 
         public DbSet<Department> Departments { get; set; }
 
+        public DbSet<User> Users { get; set; } 
+
 
 
     }

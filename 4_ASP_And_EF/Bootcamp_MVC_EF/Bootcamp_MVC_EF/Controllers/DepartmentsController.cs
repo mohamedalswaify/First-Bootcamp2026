@@ -2,6 +2,7 @@
 using Bootcamp_MVC_EF.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System;
 
 namespace Bootcamp_MVC_EF.Controllers
 {
@@ -49,9 +50,9 @@ namespace Bootcamp_MVC_EF.Controllers
         //Edit
         //==========================
         [HttpGet]
-        public ActionResult Edit(int Id)
+        public ActionResult Edit(string uuid)
         {
-            var dept = _db.Departments.Find(Id);
+            var dept = _db.Departments.FirstOrDefault(e =>e.Uuid== uuid);
             if (dept == null)
             {
                 return NotFound();
@@ -65,7 +66,16 @@ namespace Bootcamp_MVC_EF.Controllers
         {
             if (ModelState.IsValid)
             {
-                _db.Departments.Update(department);
+                var olddept = _db.Departments.FirstOrDefault(e => e.Uuid == department.Uuid);
+
+                if (olddept == null)
+                    return NotFound();
+
+                olddept.Name = department.Name;
+                olddept.Description=department.Description;
+
+
+                //_db.Departments.Update(department);
                 _db.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -79,9 +89,9 @@ namespace Bootcamp_MVC_EF.Controllers
         //Delete
         //==========================
         [HttpGet]
-        public ActionResult Delete(int Id)
+        public ActionResult Delete(string uuid)
         {
-            var dept = _db.Departments.Find(Id);
+            var dept = _db.Departments.FirstOrDefault(e => e.Uuid == uuid);
             if (dept == null)
             {
                 return NotFound();
@@ -91,10 +101,16 @@ namespace Bootcamp_MVC_EF.Controllers
         }
 
         [HttpPost]
-        public ActionResult Delete(Department department)
+        [ActionName("Delete")]
+        public ActionResult DeleteConfirm(string uuid)
         {
-            
-                _db.Departments.Remove(department);
+            var dept = _db.Departments.FirstOrDefault(e => e.Uuid == uuid);
+            if (dept == null)
+            {
+                return NotFound();
+            }
+
+            _db.Departments.Remove(dept);
                 _db.SaveChanges();
                 return RedirectToAction("Index");
          

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authentication;
+﻿using Bootcamp_MVC_EF.Data;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
@@ -8,6 +9,13 @@ namespace Bootcamp_MVC_EF.Controllers
 {
     public class AccountsController : Controller
     {
+
+        private readonly AppDbContext _db;
+        public AccountsController(AppDbContext db)
+        {
+            _db = db;
+        }
+
         public IActionResult Login()
         {
             return View();
@@ -18,8 +26,26 @@ namespace Bootcamp_MVC_EF.Controllers
         [HttpPost]
         public async Task<IActionResult> LoginConfirm(string email , string password)
         {
-            if(email=="m@gmail.com" && password=="12345")
+
+            var  user = _db.Users.FirstOrDefault(x => x.Email == email);
+
+            if (user==null)
             {
+                return NotFound();
+            }
+
+            bool isPasswordCorrect = BCrypt.Net.BCrypt.Verify(password, user.Password);
+
+            if (!isPasswordCorrect)
+            {
+                ModelState.AddModelError("", "Invalid Email or Password");
+                return View("Login");
+            }
+            if (user.IsLocked)
+            {
+                ModelState.AddModelError("", "Your account is locked");
+                return View("Login");
+            }
 
                 var claims = new List<Claim> 
                 {
@@ -34,9 +60,7 @@ namespace Bootcamp_MVC_EF.Controllers
                 await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
 
                 return RedirectToAction("Index", "Home");
-            }
-
-            return View("Login");
+       
         }
 
         [HttpPost] 
