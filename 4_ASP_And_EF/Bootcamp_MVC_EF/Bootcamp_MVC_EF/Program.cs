@@ -14,6 +14,16 @@ var conectionString = builder.Configuration.GetConnectionString("DefaultConnecti
 builder.Services.AddDbContext<AppDbContext>(options =>
 options.UseSqlServer(conectionString));
 
+// ================================ 
+// Cookie Authentication 
+// ================================
+builder.Services .AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme) 
+    .AddCookie(options => { 
+        options.LoginPath = "/Accounts/Login"; 
+        options.AccessDeniedPath = "/Account/AccessDenied"; 
+    });
+
+
 
 
 var app = builder.Build();
@@ -31,6 +41,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

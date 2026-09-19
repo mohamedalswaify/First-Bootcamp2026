@@ -18,6 +18,7 @@ namespace Bootcamp_MVC_EF.Controllers
 
         public ActionResult Index()
         {
+
             //Entity Framework Approach
             IEnumerable<Department> depts = _db.Departments.ToList();
             return View(depts);
